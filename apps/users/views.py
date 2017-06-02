@@ -2,8 +2,8 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render, redirect
-from .model import User
-from ..catering.models import Order, Product, Category
+# from .model import User
+# from ..catering.models import Order, Product, Category
 
 # Create your views here.
 def index(request):
