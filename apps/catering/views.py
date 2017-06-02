@@ -7,7 +7,7 @@ from django.shortcuts import render
 # Create your views here.
 
 def index(request):
-    return render(request, 'catering:dashboard.html')
+    return render(request, 'catering/index.html')
 
 def product_showcase(request):
     pass

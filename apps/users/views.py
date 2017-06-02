@@ -7,7 +7,7 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 def index(request):
-    return render(request, 'login:index.html')
+    return render(request, 'users/index.html')
 
 def login(request):
     pass
