@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.db import models
-from ..catering.models import Order, Product, Category
+# from ..catering.models import Order, Product, Category
 import re
 
 #REGEX
@@ -15,7 +15,7 @@ class User(models.Model):
     first_name = models.CharField(max_length=45)
     last_name = models.CharField(max_length=45)
     email = models.EmailField(max_length=255)
-    phone = models.charField(max_length=14)
+    phone = models.CharField(max_length=14)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     user_lvl = models.IntegerField(default=0)
